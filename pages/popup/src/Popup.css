@@ -1,0 +1,40 @@
+/* Add to Popup.css or your main CSS file */
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+/* Optional: Basic Body styling for popup */
+body {
+  width: 320px; /* Or match the width set in Popup.tsx (w-80 = 320px) */
+  margin: 0;
+  font-family: sans-serif; /* Or your preferred font */
+}
+
+/* Optional: Nicer scrollbars (Webkit) */
+/* Customize colors to match your theme */
+main::-webkit-scrollbar {
+  width: 6px;
+}
+
+main::-webkit-scrollbar-track {
+  background: transparent; /* Or use theme colors: theme('colors.slate.100') / theme('colors.gray.700') */
+}
+
+main::-webkit-scrollbar-thumb {
+  background-color: theme('colors.gray.400'); /* Adjust as needed */
+  border-radius: 10px;
+  border: 2px solid transparent; /* Prevents thumb touching edges */
+   background-clip: content-box; /* Important */
+}
+main:hover::-webkit-scrollbar-thumb { /* Show more clearly on hover */
+  background-color: theme('colors.gray.500');
+}
+
+/* Apply dark theme scrollbars if needed */
+.dark main::-webkit-scrollbar-thumb {
+   background-color: theme('colors.gray.500');
+}
+.dark main:hover::-webkit-scrollbar-thumb {
+   background-color: theme('colors.gray.400');
+}
+

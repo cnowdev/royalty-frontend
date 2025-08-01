@@ -1,0 +1,67 @@
+import { SiteConfig } from "@src/types";
+
+export const siteConfigs: Record<string, SiteConfig> = {
+    "codecademy.com": {
+        inputSelector: "input[data-testid=promo-input]",
+        submitSelector: "button[data-testid=promo-code-submit]",
+        successSelector: ".e8i0p5k0",
+        errorSelector: ".egb3lhk0",
+        subtotalSelector: 'span[data-testid=total-today]',
+        waitMs: 750,
+    },
+    "target.com": {
+        inputSelector: "#promoCodeEntry",
+        submitSelector: "button[data-test=apply-promo-code-button]",
+        successSelector: ".e8i0p5k0",
+        errorSelector: "#promoCodeEntry--ErrorMessage",
+        subtotalSelector: '#orderSummaryWrapperDiv > div > div.sc-9d3d7656-1.kvctvp > div.styles_ndsCol__MIQSp.styles_xs__jQ_Rd > div > div.styles_ndsAccordion__miRJm.styles_menu__FfRvL.sc-6e829a3-3.jgIFMB > button > div > span.styles_textSpan__IgvWs > h2 > div',
+        waitMs: 750,
+    },
+    "costco.com": {
+        inputSelector: "#enter-promo-code-input",
+        submitSelector: "#apply-promo-code > input",
+        successSelector: ".e8i0p5k0",
+        errorSelector: "#promo-code-error > p.sr-only",
+        subtotalSelector: '#subtotal-value',
+        waitMs: 750,
+    },
+    "amazon.com": {
+        inputSelector: "input[name=ppw-claimCode]",
+        submitSelector: "input[name=ppw-claimCodeApplyPressed]",
+        successSelector: ".e8i0p5k0",
+        errorSelector: ".a-alert-content",
+        subtotalSelector: 'li.a-spacing-mini:nth-child(1) > span:nth-child(1) > div:nth-child(1) > div:nth-child(2) > span:nth-child(1)',
+        waitMs: 750,
+    },
+    "michaels.com": {
+        inputSelector: "#promoCode",
+        submitSelector: "button[formid=promo-code]",
+        successSelector: ".e8i0p5k0",
+        errorSelector: ".conpon-error-item",
+        subtotalSelector: '#subtotal > p.chakra-text.css-i03nug',
+        waitMs: 750,
+    },
+    "skillshare.com": {
+        inputSelector: "input[data-testid=coupon-input]",
+        submitSelector: "button[data-testid=coupon-button]",
+        successSelector: ".sk-mt-1.sk-text-text-medium.sk-font-bold.sk-italic.sk-text-accent",
+        errorSelector: "div[data-testid=coupon-error]",
+        waitMs: 750,
+    },
+    "kohls.com": {
+        inputSelector: "input[name=promoCode]",
+        submitSelector: "button[title=Add]",
+        successSelector: ".manual-entry-success-msg",
+        errorSelector: "",
+        subtotalSelector: '[data-testid="order-total-amount"]',
+        waitMs: 750,
+    },
+    "gap.com": {
+        inputSelector: "#promo-code-input",
+        submitSelector: "#apply-promo-code-button",
+        successSelector: ".manual-entry-success-msg",
+        errorSelector: ".text-cb-textColor-error.cb-base-note.mt-1 h-auto",
+        subtotalSelector: '#order-summary > div:nth-child(3) > div.cb-display-default-emphasis.flex.items-baseline.justify-between.gap-1.pt-4 > span > span',
+        waitMs: 750,
+    },
+};
