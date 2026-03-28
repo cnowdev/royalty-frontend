@@ -35,7 +35,7 @@ Royalty is a browser extension that saves you money on the products you love. Ro
 
 - **Website:** [https://www.joinroyalty.app](https://www.joinroyalty.app)
 
-- <img src="https://fonts.gstatic.com/s/i/productlogos/chrome_store/v7/192px.svg" alt="CWS" width="24"/> **Chrome Web Store:** [https://chrome.google.com/webstore](https://chrome.google.com/webstore)
+- <img src="https://fonts.gstatic.com/s/i/productlogos/chrome_store/v7/192px.svg" alt="CWS" width="24"/> **Chrome Web Store:** [https://chrome.google.com/webstore]([[https://chrome.google.com/webstore](https://chromewebstore.google.com/detail/royalty-open-source-shopp/ggmkbfibnpcdgooafhjljadolcoepndj?pli=1)](https://chromewebstore.google.com/detail/royalty-open-source-shopp/ggmkbfibnpcdgooafhjljadolcoepndj?pli=1))
 
 
 ---
