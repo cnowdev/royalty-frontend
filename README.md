@@ -6,12 +6,11 @@ Royalty is a browser extension that saves you money on the products you love. Ro
 
 ---
 ## 🖼️ Images
-![image1](https://media.discordapp.net/attachments/963204669826535424/1400606593145372723/vlcsnap-2025-07-31-18h27m12s098.png?ex=688d4009&is=688bee89&hm=67af59214a82f076a42db7961a4bbe321fe71caa73d36e08146958cf156c096b&=&width=1313&height=813)
 
 <div>
-  <img src="https://media.discordapp.net/attachments/963204669826535424/1400606592629608478/vlcsnap-2025-07-31-18h30m20s041.png?ex=688d4009&is=688bee89&hm=44012deb6065ee8c0b299c146fcb22bca66564256593aeb8c2f8f3ad93fc74cf&=&width=1313&height=813" width="250" />
-  <img src="https://media.discordapp.net/attachments/963204669826535424/1400606593673859133/vlcsnap-2025-07-31-18h27m58s180.png?ex=688d4009&is=688bee89&hm=03844c2315e4912e650fd22ab757e503f58f09986b34127d6729521dd549ca7e&=&width=1313&height=813" width="250" />
-  <img src="https://media.discordapp.net/attachments/963204669826535424/1400606594437353612/vlcsnap-2025-07-31-18h30m05s505.png?ex=688d400a&is=688bee8a&hm=1e8886d9b75edc35c2d8d9a89eb72f518d52076193f451fe9e5a52e8bbea7ca9&=&width=1313&height=813" width="250" />
+  <img src="royaltyimage1.png" width="300" alt="Feature Screenshot 1" />
+  <img src="royaltyimage2.png" width="300" alt="Feature Screenshot 2" />
+  <img src="royaltyimage3.png" width="300" alt="Feature Screenshot 3" />
 </div>
 
 ---
